@@ -3,9 +3,9 @@ void call() {
         println "go: build()"
     }
 
-    stage('git') { // for display purposes
-        git 'https://github.com/DarManuals/clean-arch.git'
-    }
+//    stage('git') { // for display purposes
+//        git 'https://github.com/DarManuals/clean-arch.git'
+//    }
 
     stage("build") {
         sh("go build .")
